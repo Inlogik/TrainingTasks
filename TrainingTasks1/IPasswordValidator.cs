@@ -5,8 +5,8 @@ using System.Text;
 
 namespace TrainingTasks1
 {
-    public interface IPasswordValidator
+    public interface IPasswordValidation
     {
-        bool Validate(string password);
+        PasswordValidationResult Validate(string password);
     }
 }
