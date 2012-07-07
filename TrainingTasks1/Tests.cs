@@ -14,7 +14,6 @@ namespace TrainingTasks1
         // 3. If a password is invalid the reason it is invalid should be in the ValidationResult 
         //
         // Notes: Tests should cover all functionality
-        //        SOLID principles should be adhered to
         //        C# conventions should be followed
 
         [Test]
