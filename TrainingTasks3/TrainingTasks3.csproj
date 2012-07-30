@@ -43,6 +43,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Menu.cs" />
+    <Compile Include="MenuBuilder.cs" />
+    <Compile Include="MenuBuilderTests.cs" />
     <Compile Include="MenuConfig.cs" />
     <Compile Include="MenuItem.cs" />
     <Compile Include="MenuContext.cs" />
