@@ -41,7 +41,7 @@ namespace TrainingTasks4
         public void BasicHtmlBuilderWithoutToString()
         {
             Html html = Html.Tag("span").Attr("test", "testvalue");
-            Assert.AreEqual("<span test=\"testvalue\"></span>", html);
+            Assert.True("<span test=\"testvalue\"></span>" == html);
         }
     }
 }
