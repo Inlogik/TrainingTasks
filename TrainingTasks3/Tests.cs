@@ -15,12 +15,12 @@ namespace TrainingTasks3
             // Implement the following API with tests.
             // Leave this test alone. It should obviously compile once finished.
 
-            MenuConfig menuConfig = Menu.Config(options =>
-            {
-                options.AddStatic("/test", "Test");                                        // first param is url, second is text
-                options.AddDynamic(context => { return Enumerable.Empty<MenuItem>(); });   // context is MenuContext, returns IEnumerable<MenuItem>
-                options.Visible((context, menuItem) => true);                              // context is MenuContext, menuItem is MenuItem, returns bool
-            });
+            //MenuConfig menuConfig = Menu.Config(options =>
+            //{
+            //    options.AddStatic("/test", "Test");                                        // first param is url, second is text
+            //    options.AddDynamic(context => { return Enumerable.Empty<MenuItem>(); });   // context is MenuContext, returns IEnumerable<MenuItem>
+            //    options.Visible((context, menuItem) => true);                              // context is MenuContext, menuItem is MenuItem, returns bool
+            //});
             
         }
     }
